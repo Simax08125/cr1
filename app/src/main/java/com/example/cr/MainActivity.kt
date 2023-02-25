@@ -15,7 +15,7 @@ import java.util.regex.Pattern
 class MainActivity : AppCompatActivity() {
     lateinit var mail: EditText
     lateinit var pass: EditText
-    val patterns = ("[a-z]{1,100}" + "" + "[a-z]{1,6}" + "." + "[a-z]{1,3}")
+    val patterns = ("[a-z]{1,100}" + "@" + "[a-z]{1,6}" + "." + "[a-z]{1,3}")
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
